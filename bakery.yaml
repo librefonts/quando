@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Quando-Regular.ttf.ttx, src/Quando-Regular.otf.ttx, src/Quando-Regular-TTF.sfd,
+  src/Quando-Regular-OTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
